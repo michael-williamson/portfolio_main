@@ -9,14 +9,15 @@ let projects = [
     image: "/media/humanfamilytree.png",
   },
   {
-    title: "Archery Speed",
-    tech: ["React.js", "Material UI", "CSS Animations"],
+    title: "Origins of Civilization",
+    tech: ["React.js", "Material UI", "Google Maps API"],
     description:
-      "Tool for allowing archers to visualize arrow speed and target distance,  build using latest React.js techniques",
-    site: "https://archeryspeed.netlify.app/",
-    code: "https://github.com/michael-williamson/archery_timer",
-    image: "/media/archery.png",
+      "Google Maps API integrated with a dynamic data set,  Meant to give any person interested in the time of human civilizations and developments.",
+    site: "https://civilization-tracker.netlify.app/",
+    code: "https://github.com/michael-williamson/civilization-tracker",
+    image: "/media/civilization-tracker.png",
   },
+
   {
     title: "Binary Calculator",
     tech: ["React.js", "Material UI"],
@@ -52,6 +53,15 @@ let projects = [
     site: "https://family-tree-app.netlify.app/",
     code: "https://github.com/michael-williamson/FAMILY_TREE",
     image: "/media/family_tree.jpg",
+  },
+  {
+    title: "Archery Speed",
+    tech: ["React.js", "Material UI", "CSS Animations"],
+    description:
+      "Tool for allowing archers to visualize arrow speed and target distance,  build using latest React.js techniques",
+    site: "https://archeryspeed.netlify.app/",
+    code: "https://github.com/michael-williamson/archery_timer",
+    image: "/media/archery.png",
   },
   {
     title: "Brewpub Site",

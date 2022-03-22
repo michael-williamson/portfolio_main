@@ -8,7 +8,7 @@ import { Contact } from "./components/Contact";
 
 function App() {
   return (
-    <Container maxWidth={false}>
+    <Container maxWidth="xl" disableGutters={true}>
       <div className="App">
         <Header />
         <Banner />
