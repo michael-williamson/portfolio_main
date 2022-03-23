@@ -14,7 +14,7 @@ let projects = [
     description:
       "Google Maps API integrated with a dynamic data set,  Meant to give any person interested in the time of human civilizations and developments.",
     site: "https://civilization-tracker.netlify.app/",
-    code: "https://github.com/michael-williamson/civilization-tracker",
+    code: "https://github.com/michael-williamson/Civilization_Tracker",
     image: "/media/civilization-tracker.png",
   },
 
