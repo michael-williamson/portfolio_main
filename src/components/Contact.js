@@ -5,6 +5,7 @@ import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
+import { FileCopy } from "@material-ui/icons";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
 const useStyles = makeStyles((theme) => ({
@@ -77,12 +78,20 @@ export const Contact = () => {
           startIcon={<LinkedInIcon />}
           href={"https://www.linkedin.com/in/mwilliamson102/"}
           className={classes.contactBtn}
+          target="_blank"
         >
           https://www.linkedin.com/in/mwilliamson102/
         </Button>
         <Button
           startIcon={<AlternateEmailIcon />}
+          endIcon={<FileCopy />}
           className={classes.contactBtn}
+          onClick={() => {
+            window.navigator.clipboard.writeText(
+              "michaelwilliamsondesigns@gmail.com"
+            );
+            alert("copied email address to clipboard");
+          }}
         >
           michaelwilliamsondesigns@gmail.com
         </Button>
@@ -90,6 +99,7 @@ export const Contact = () => {
           startIcon={<GitHubIcon />}
           href={"https://github.com/michael-williamson"}
           className={classes.contactBtn}
+          target="_blank"
         >
           https://github.com/michael-williamson
         </Button>
