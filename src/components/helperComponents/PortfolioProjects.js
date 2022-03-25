@@ -90,7 +90,11 @@ const projectsArr = (styles, mediaStyles) => {
                 <Button href={item.site} target="_blank">
                   Live
                 </Button>
-                <Button href={item.code} startIcon={<GitHubIcon />}>
+                <Button
+                  href={item.code}
+                  startIcon={<GitHubIcon />}
+                  target="_blank"
+                >
                   Github
                 </Button>
               </ButtonGroup>

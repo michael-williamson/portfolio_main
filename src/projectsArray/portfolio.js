@@ -3,7 +3,7 @@ let projects = [
     title: "Human Family Tree",
     tech: ["React.js", "Material UI", "Google Maps API"],
     description:
-      "Google Maps API integrated with a dynamic data set,  Meant to give any person interested in Human history a resource rich tool at their finger tips.",
+      "Google Maps API integrated with a dynamic data set,  Meant to give any person interested in Human history a resource rich tool at their finger tips",
     site: "https://humanfamilytree.netlify.app/",
     code: "https://github.com/michael-williamson/human_family_tree",
     image: "/media/humanfamilytree.png",
@@ -12,26 +12,35 @@ let projects = [
     title: "Origins of Civilization",
     tech: ["React.js", "Material UI", "Google Maps API"],
     description:
-      "Google Maps API integrated with a dynamic data set,  Meant to give any person interested in the time of human civilizations and developments.",
+      "Google Maps API that introduces the user to the Origins of Civilization. Contains a rich glossary, intriguing images, and interactive displays.  This experience captures the progression of human history after the first crops were sown",
     site: "https://civilization-tracker.netlify.app/",
     code: "https://github.com/michael-williamson/Civilization_Tracker",
     image: "/media/civilization_tracker.png",
   },
 
   {
-    title: "Binary Calculator",
+    title: "Binary Calculator Mobile",
+    tech: ["React Native", "Binary Number System"],
+    description:
+      "Simplified Calculator that adds two Binary Numbers together and automatically updates with interaction. Created with React Native by applying all the tricks and usability associated with JavaScript code and syntax before conversion to Android Software",
+    site: "https://binarycalculatorapp.netlify.app/",
+    code: "https://github.com/michael-williamson/binary_calculator",
+    image: "/media/binary_calculator_native.png",
+  },
+  {
+    title: "Binary Calculator Desktop",
     tech: ["React.js", "Material UI"],
     description:
       "Calculator demonstration using the binary system and circuit board architecture which helps visualize what is happening on a fundamental level in computer system operation",
     site: "https://binarycalculatorapp.netlify.app/",
     code: "https://github.com/michael-williamson/binary_calculator",
-    image: "/media/binary_calculator.png",
+    image: "/media/binary_calculator_desktop.png",
   },
   {
     title: "Livewell Fishing App",
     tech: ["React.js", "TypeScript", "Java Spring Boot"],
     description:
-      "Full Stack App for fishing enthusiasts to keep track of the fish they catch.  Designed using React.js with TypeScript in the Frontend.  Graphics were made utilizing Adobe Creative Cloud.  Backend API was designed with Java Spring and PostgreSQL.",
+      "Full Stack App for fishing enthusiasts to keep track of the fish they catch.  Designed using React.js with TypeScript in the Frontend.  Graphics were made utilizing Adobe Creative Cloud.  Backend API was designed with Java Spring and PostgreSQL",
     site: "https://livewell-app.netlify.app/",
     code: "https://github.com/michael-williamson/livewell_app_ts",
     image: "/media/livewell_app.png",
@@ -40,7 +49,7 @@ let projects = [
     title: "Stock Trading App",
     tech: ["React.js", "TypeScript", "Java Spring Boot"],
     description:
-      "Full Stack App designed to assist Stock Traders in analyzing and keeping up-to-date with their stock trades.  React.js and TypeScript were used to design the Frontend along with other React.js friendly libraries.  Backend API uses Java Spring and Authentication to communicate with the User Interface.",
+      "Full Stack App designed to assist Stock Traders in analyzing and keeping up-to-date with their stock trades.  React.js and TypeScript were used to design the Frontend along with other React.js friendly libraries.  Backend API uses Java Spring and Authentication to communicate with the User Interface",
     site: "https://trade-buddy.netlify.app/",
     code: "https://github.com/michael-williamson/trade_buddy_ts",
     image: "/media/trade_buddy.png",
@@ -67,7 +76,7 @@ let projects = [
     title: "Brewpub Site",
     tech: ["CSS animations", "Responsive", "Optimization"],
     description:
-      "An experimental design for what a brewpub website would like with promotions, list of what's on tap, and what events are coming soon.  Complete with CSS Animations smooth-scrolling and Web Optimized Media.",
+      "An experimental design for what a brewpub website would like with promotions, list of what's on tap, and what events are coming soon.  Complete with CSS Animations smooth-scrolling and Web Optimized Media",
     site: "https://michael-williamson.github.io/frontier-brew-pub/",
     code: "https://github.com/michael-williamson/frontier-brew-pub",
     image: "/media/brewpub-app.jpg",
@@ -76,7 +85,7 @@ let projects = [
     title: "Yoga Site",
     tech: ["HTML Tables", "Animations", "Color Theme"],
     description:
-      "Experimental site based on bringing to life the website of a potential yoga business client. Covers all of the necessities of information such as instructor info, class times, and class descriptions.  As well incorporated CSS transforms and transitions for interactivity.",
+      "Experimental site based on bringing to life the website of a potential yoga business client. Covers all of the necessities of information such as instructor info, class times, and class descriptions.  As well incorporated CSS transforms and transitions for interactivity",
     site: "https://michael-williamson.github.io/yoga-site/",
     code: "https://github.com/michael-williamson/yoga-site",
     image: "/media/yoga-app.jpg",
@@ -85,7 +94,7 @@ let projects = [
     title: "Planet App",
     tech: ["JavaScript Equations", "Adobe Photoshop", "Info Site"],
     description:
-      "Interactive and fun app using graphics and movement to create a pleasant experience learning about the planets in our Solar System.  Used Animations with CSS to get a circular rotation.",
+      "Interactive and fun app using graphics and movement to create a pleasant experience learning about the planets in our Solar System.  Used Animations with CSS to get a circular rotation",
     site: "https://michael-williamson.github.io/the-planets/",
     code: "https://github.com/michael-williamson/the-planets",
     image: "../../media/planets.jpg",
