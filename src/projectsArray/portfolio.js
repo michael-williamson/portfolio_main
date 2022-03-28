@@ -23,8 +23,8 @@ let projects = [
     tech: ["React Native", "Binary Number System"],
     description:
       "Simplified Calculator that adds two Binary Numbers together and automatically updates with interaction. Created with React Native by applying all the tricks and usability associated with JavaScript code and syntax before conversion to Android Software",
-    site: "https://binarycalculatorapp.netlify.app/",
-    code: "https://github.com/michael-williamson/binary_calculator",
+    site: "https://play.google.com/store",
+    code: "https://github.com/michael-williamson/binary_calculator_native",
     image: "/media/binary_calculator_native.png",
   },
   {
