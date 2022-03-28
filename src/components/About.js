@@ -69,10 +69,18 @@ export const About = () => {
           align={"left"}
           className={classes.aboutParagraph}
         >
-          Hello! My name is Michael Williamson. I am a Full Stack Developer
-          specializing in creating sleek, fast, User Interfaces using
-          <span className={classes.keywords}> React.js. </span>I also work with
-          a variety of Backend and Database technologies including
+          Hello! My name is Michael Williamson. I am a Web Developer
+          specializing in creating sleek, fast, user interfaces using
+          <span className={classes.keywords}> React.js. </span>I have a solid
+          foundation in all of the essential Front End Technologies
+          <span className={classes.keywords}>
+            {" "}
+            HTML5, CSS3, and JavaScript.{" "}
+          </span>
+          I've used <span className={classes.keywords}>TypeScript</span>{" "}
+          regularly and have built mobile apps using{" "}
+          <span className={classes.keywords}>React Native. </span>I also work
+          with a variety of Backend and Database technologies including
           <span variant="h4" className={classes.keywords}>
             {" "}
             Java, Node.js, SQL,{" "}
@@ -83,8 +91,8 @@ export const About = () => {
             MongoDB.{" "}
           </span>
           {"  "}
-          Along with being a developer I love to Free Dive, Play guitar, Learn
-          about history as well as many other things.
+          Along with being a developer I love to Free Dive, play guitar, and
+          learn about history as well as many other things.
         </Typography>
       </Paper>
     </div>
