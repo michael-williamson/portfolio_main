@@ -61,7 +61,7 @@ let projects = [
       "Form app that displays family members in a family tree form.  A React.js application that relied heavily on Redux Form.  Family Tree App does an excellent job of maintaining Form data and displaying it in a User Friendly model",
     site: "https://family-tree-app.netlify.app/",
     code: "https://github.com/michael-williamson/FAMILY_TREE",
-    image: "/media/family_tree.jpg",
+    image: "/media/family_tree.png",
   },
   {
     title: "Archery Speed",
