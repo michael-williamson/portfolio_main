@@ -19,11 +19,11 @@ let projects = [
   },
 
   {
-    title: "Binary Calculator Mobile",
+    title: "Binary Calculator Android",
     tech: ["React Native", "Binary Number System"],
     description:
       "Simplified Calculator that adds two Binary Numbers together and automatically updates with interaction. Created with React Native by applying all the tricks and usability associated with JavaScript code and syntax before conversion to Android Software",
-    site: "https://play.google.com/store",
+    site: "https://play.google.com/store/apps/details?id=com.binary_calculator_native",
     code: "https://github.com/michael-williamson/binary_calculator_native",
     image: "/media/binary_calculator_native.png",
   },
