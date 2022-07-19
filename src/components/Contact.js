@@ -83,6 +83,13 @@ export const Contact = () => {
           https://www.linkedin.com/in/mwilliamson102/
         </Button>
         <Button
+          href={"https://www.coderbyte.com/profile/coder4221"}
+          className={classes.contactBtn}
+          target="_blank"
+        >
+          Code Challenge Profile
+        </Button>
+        <Button
           startIcon={<AlternateEmailIcon />}
           endIcon={<FileCopy />}
           className={classes.contactBtn}
