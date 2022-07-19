@@ -85,14 +85,12 @@ export const Contact = () => {
         </Button>
         <Button
           startIcon={
-            <img src={coderbyte_logo_1} alt="logo" height="13" width="13" />
+            <img src={coderByteIcon} alt="logo" height="40" width="auto" />
           }
           href={"https://www.coderbyte.com/profile/coder4221"}
           className={classes.contactBtn}
           target="_blank"
-        >
-          Code Challenge Profile
-        </Button>
+        ></Button>
         <Button
           startIcon={<AlternateEmailIcon />}
           endIcon={<FileCopy />}
