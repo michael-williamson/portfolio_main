@@ -7,6 +7,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import AlternateEmailIcon from "@material-ui/icons/AlternateEmail";
 import { FileCopy } from "@material-ui/icons";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import coderByteIcon from "../media/images/coderbyte_logo_1.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -83,6 +84,7 @@ export const Contact = () => {
           https://www.linkedin.com/in/mwilliamson102/
         </Button>
         <Button
+          startIcon={coderByteIcon}
           href={"https://www.coderbyte.com/profile/coder4221"}
           className={classes.contactBtn}
           target="_blank"
