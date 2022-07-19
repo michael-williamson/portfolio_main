@@ -84,7 +84,9 @@ export const Contact = () => {
           https://www.linkedin.com/in/mwilliamson102/
         </Button>
         <Button
-          startIcon={coderByteIcon}
+          startIcon={
+            <img src={coderbyte_logo_1} alt="logo" height="13" width="13" />
+          }
           href={"https://www.coderbyte.com/profile/coder4221"}
           className={classes.contactBtn}
           target="_blank"
