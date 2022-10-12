@@ -70,7 +70,7 @@ const useStyles = makeStyles((theme) => ({
 const projectsArr = (styles, mediaStyles) => {
   return projects.map((item) => {
     return (
-      <Grid item xs={12} md={5}>
+      <Grid item xs={12} md={5} key={item.title}>
         <Card className={styles.card} key={item.title}>
           <CardMedia classes={mediaStyles} image={item.image} />
           <Box className={styles.content}>
