@@ -7,8 +7,9 @@ import {
   Fade,
 } from "@material-ui/core";
 import { BannerProjects } from "../components/helperComponents/BannerProjects";
+import { ResourcesComponent } from "./helperComponents/ResourcesComponent";
 
-const useStyles = makeStyles((theme) =>
+const useStyles = makeStyles(theme =>
   createStyles({
     root: {
       flexGrow: 1,
@@ -52,7 +53,7 @@ const useStyles = makeStyles((theme) =>
   })
 );
 
-const TitleText = (props) => {
+const TitleText = props => {
   const classes = useStyles();
   return (
     <div {...props} className={classes.titleTextGroup}>
@@ -66,7 +67,7 @@ const TitleText = (props) => {
   );
 };
 
-export const Banner = (props) => {
+export const Banner = props => {
   const classes = useStyles();
   return (
     <Grid
@@ -83,6 +84,9 @@ export const Banner = (props) => {
       </Grid>
       <Grid item>
         <BannerProjects />
+      </Grid>
+      <Grid item>
+        <ResourcesComponent />
       </Grid>
     </Grid>
   );
