@@ -61,7 +61,7 @@ const TitleText = props => {
         Michael Williamson
       </Typography>
       <Typography variant={"h6"} classes={{ h6: classes.titleTextSubHeader }}>
-        Web Developer
+        JavaScript Developer
       </Typography>
     </div>
   );
